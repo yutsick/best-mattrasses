@@ -1,0 +1,12 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import tw-elements CSS */
+/* @import 'tw-elements/dist/css/index.min.css'; */
+
+@layer components {
+
+
+}
