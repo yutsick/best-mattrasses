@@ -41,6 +41,12 @@
             padding-left: calc(40vw - 570px);
         }
     }
+    @media(min-width:1440px) {
+
+        .hero .hero-text {
+            padding-left: 0;
+        }
+    }
 .brand-container{
     @media (max-width:345px) {
         gap:8px !important;
