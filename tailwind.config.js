@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
-    "./node_modules/tw-elements/js/**/*.js",
+    // "./node_modules/tw-elements/js/**/*.js",
+     "./node_modules/flowbite/**/*.js",
     //  "./src/**/*.{html,js}", "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
@@ -23,6 +24,7 @@ module.exports = {
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
       'lato': ['Lato', 'sans-serif'],
+      'poppins': ['Poppins', 'sans-serif'],
     },
     screens: {
       'sm': '768px',
@@ -41,7 +43,10 @@ module.exports = {
     },
   },
 
-  plugins: [require("tw-elements/plugin.cjs")],
+  plugins: [
+    // require("tw-elements/plugin.cjs"),
+    require('flowbite/plugin'),
+  ],
   darkMode: "class",
 
 }
