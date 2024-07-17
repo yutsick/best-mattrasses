@@ -1315,6 +1315,11 @@ input:checked + .toggle-bg {
   margin-bottom: 6px;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-mt-6 {
   margin-top: -1.5rem;
 }
@@ -1401,10 +1406,6 @@ input:checked + .toggle-bg {
 
 .mt-\[75px\] {
   margin-top: 75px;
-}
-
-.mt-\[2px\] {
-  margin-top: 2px;
 }
 
 .box-content {
@@ -2243,12 +2244,12 @@ input:checked + .toggle-bg {
   font-size: 11px;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
+.text-\[12\.5px\] {
+  font-size: 12.5px;
 }
 
-.text-\[13px\] {
-  font-size: 13px;
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .text-\[14px\] {
@@ -2287,10 +2288,6 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[12\.5px\] {
-  font-size: 12.5px;
 }
 
 .font-bold {
@@ -2841,6 +2838,10 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 576px) {
+  .min-\[576px\]\:m-auto {
+    margin: auto;
+  }
+
   .min-\[576px\]\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -3025,6 +3026,14 @@ input:checked + .toggle-bg {
     padding-top: 2rem;
   }
 
+  .sm\:text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .sm\:text-\[15px\] {
+    font-size: 15px;
+  }
+
   .sm\:text-\[16px\] {
     font-size: 16px;
   }
@@ -3035,18 +3044,6 @@ input:checked + .toggle-bg {
 
   .sm\:text-\[32px\] {
     font-size: 32px;
-  }
-
-  .sm\:text-\[11px\] {
-    font-size: 11px;
-  }
-
-  .sm\:text-\[13px\] {
-    font-size: 13px;
-  }
-
-  .sm\:text-\[15px\] {
-    font-size: 15px;
   }
 
   .sm\:leading-\[26px\] {
