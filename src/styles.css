@@ -1403,6 +1403,10 @@ input:checked + .toggle-bg {
   margin-top: 75px;
 }
 
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -2285,6 +2289,10 @@ input:checked + .toggle-bg {
   line-height: 1.25rem;
 }
 
+.text-\[12\.5px\] {
+  font-size: 12.5px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3027,6 +3035,18 @@ input:checked + .toggle-bg {
 
   .sm\:text-\[32px\] {
     font-size: 32px;
+  }
+
+  .sm\:text-\[11px\] {
+    font-size: 11px;
+  }
+
+  .sm\:text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .sm\:text-\[15px\] {
+    font-size: 15px;
   }
 
   .sm\:leading-\[26px\] {
