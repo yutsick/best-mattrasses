@@ -118,6 +118,6 @@
     background: linear-gradient(130deg, #3450A2 0%, #75A2E5 58%, #0E1962 100%);
 }
 .modal-shadow{
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.65);
 }
 }
