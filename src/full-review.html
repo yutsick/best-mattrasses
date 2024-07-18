@@ -23,7 +23,7 @@
         Disclosure</button>
     </div>
   </section>
-  <header class="f-full sticky top-0 z-20 ">
+  <header class="f-full sticky top-[-1px] z-20 ">
 
     <div class="w-full bg-[#123740] py-4 flex justify-center">
       <div class="header__inner">
@@ -438,8 +438,45 @@
         </div>
       </footer>
       <div class="bg-[#123740] flex justify-center text-[#C4CDCF] py-[25px] text-[14px]">Copyright © 2024. All Rights Reserved</div>
-    <!-- <script type="text/javascript" src="../node_modules/tw-elements/js/tw-elements.umd.min.js"></script> -->
-    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+      <!-- Disclosure modal -->
+<div
+class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center  w-full md:inset-0 h-[calc(100%-1rem)] max-h-full mt-[-100px] "
+id="disclosure" tabindex="-1" aria-labelledby="disclosureLabel" aria-hidden="true">
+<div
+  class="relative w-auto   transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:max-w-[500px]">
+  <div
+    class=" relative flex w-full flex-col rounded-md border-none bg-white bg-clip-padding text-current shadow-4 outline-none dark:bg-surface-dark">
+    <div
+      class="flex flex-shrink-0 items-center justify-between rounded-t-md border-b-2 border-neutral-100 p-4 dark:border-white/10">
+      <h3 class="text-[28px] font-bold leading-normal text-surface dark:text-white" id="exampleModalLabel">
+        Full Disclosure
+      </h3>
+      <button type="button"
+        class="box-content rounded-none border-none text-neutral-500 hover:text-neutral-800 hover:no-underline focus:text-neutral-800 focus:opacity-100 focus:shadow-none focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300 close-modal"
+        data-modal-hide="disclosure" aria-label="Close">
+        <span class="[&>svg]:h-6 [&>svg]:w-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </span>
+      </button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="relative flex-auto p-4 pb-6 flex flex-col gap-4" data-twe-modal-body-ref>
+      <p>The company receives advertising fees from brands listed on the website. Ratings, reviews &amp; rankings
+        might be effected from these fees as well as many other factors we take into account. You should always
+        check that the information is accurate before making any decision.</p>
+      <p>Our website&nbsp;does not include the entire universe of available product choices.</p>
+    </div>
+
+
+  </div>
+</div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.4.1/flowbite.js"></script>
 
     <script src="./script.js"></script>
 
